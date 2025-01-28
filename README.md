@@ -32,6 +32,7 @@ Este projeto tem como objetivo automatizar a configuração de uma máquina virt
 ### 1. Clonar o Repositório
 ```bash
 git clone https://github.com/williampaludo/vagrant-shell-script-nginx.git
+cd vagrant-shell-script-nginx
 ```
 
 ### 2. Iniciar a Máquina Virtual
