@@ -13,7 +13,7 @@ Vagrant.configure("2") do |config|
       vm.vm.hostname = "vm--nginx-vm"
    
       # Configuração de provisionamento via Shell Script
-      vm.vm.provision "shell", path: "script.sh"
+      vm.vm.provision "shell", path: "provision.sh"
 
       # Configuração de sincronização de pastas
       vm.vm.synced_folder "site", "/var/www/html"
