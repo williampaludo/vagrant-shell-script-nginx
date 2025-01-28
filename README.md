@@ -20,11 +20,11 @@ Este projeto tem como objetivo automatizar a configuração de uma máquina virt
 
 ---
 
-## **Configurações do Ambiente**
-- **Sistema Operacional:** Ubuntu 20.04
-- **Servidor Web:** Nginx
-- **Ferramentas:** Shell Script para provisionamento
-- **Sincronização de Pastas:** Configurada entre o host e a VM para servir o site
+## **Pré-requisitos**
+Antes de iniciar, certifique-se de ter instalado:
+- [Vagrant](https://www.vagrantup.com/downloads)
+- [VirtualBox](https://www.virtualbox.org/)
+- Git Bash (para usuários Windows) ou Terminal no Linux/macOS
 
 ---
 
